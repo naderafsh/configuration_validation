@@ -85,7 +85,7 @@ def raw_gblv_label(controller_data):
 def export_gblv_label(formatted_data, mcs):
     # Formats the data for use with the P-touch labeler
     output_path = os.getcwd().rsplit('\\', 1)[0]
-    filename = output_path + '\\Tool data\\GBLV_Label_MCS-{0}_Date-{1}'.format(mcs, strftime("%Y%m%d%H%M%S"))
+    filename = output_path + '\\output\\GBLV_Label_MCS-{0}_Date-{1}'.format(mcs, strftime("%Y%m%d%H%M%S"))
     with open(filename + '.csv', 'w') as f:
         f.write(data_format.gblv_header)
         for gblv_label in formatted_data:
