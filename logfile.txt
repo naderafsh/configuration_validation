@@ -1,0 +1,24 @@
+201511161145 : KeyError:'IPPort'
+201511161148 : KeyError:''
+201511161200 : KeyError:'IPPort'
+201511161221 : KeyError:''
+201511161227 : KeyError:''
+201511170906 : KeyError:'e_BrickIP_P'
+201511181136 : KeyError:'b_ICNumber_X'
+201511181141 : KeyError:'b_AxisN_P'
+201511181144 : KeyError:cannot do label indexing on <class 'pandas.core.index.Index'> with these indexers ['none'] of <class 'str'>
+201511181147 : KeyError:cannot do label indexing on <class 'pandas.core.index.Index'> with these indexers ['none'] of <class 'str'>
+201511181148 : KeyError:cannot do label indexing on <class 'pandas.core.index.Index'> with these indexers ['none'] of <class 'str'>
+201511181150 : KeyError:cannot do label indexing on <class 'pandas.core.index.Index'> with these indexers ['none'] of <class 'str'>
+201511181152 : KeyError:Cannot access callable attribute 'iloc' of 'SeriesGroupBy' objects, try using the 'apply' method
+201511181210 : KeyError:Cannot access callable attribute 'iloc' of 'SeriesGroupBy' objects, try using the 'apply' method
+201511181211 : KeyError:Cannot access callable attribute 'iloc' of 'SeriesGroupBy' objects, try using the 'apply' method
+201511181213 : KeyError:Cannot access callable attribute 'ix' of 'SeriesGroupBy' objects, try using the 'apply' method
+201511181425 : KeyError:Cannot access callable attribute 'ix' of 'SeriesGroupBy' objects, try using the 'apply' method
+201511181514 : KeyError:name 'channel_data_unique' is not defined
+201512031032 : KeyError:cannot do label indexing on <class 'pandas.core.index.Index'> with these indexers [0] of <class 'str'>
+201512031035 : KeyError:cannot do label indexing on <class 'pandas.core.index.Index'> with these indexers [0] of <class 'str'>
+201512031051 : KeyError:'mcs'
+201512031056 : KeyError:'mcs'
+201512031102 : KeyError:'mcs'
+201512031106 : KeyError:'mcs'
