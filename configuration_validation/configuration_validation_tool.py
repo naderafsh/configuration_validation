@@ -25,8 +25,9 @@ def main():
         print('Exiting...')
         sys.exit()
     except Exception as error:
-        with open('logfile.txt', 'a') as f:
-            f.write("{} : KeyError:{}\n".format(strftime("%Y%m%d%H%M"), error))
+        print(error)
+        #with open('logfile.txt', 'a') as f:
+        #    f.write("{} : KeyError:{}\n".format(strftime("%Y%m%d%H%M"), error))
         return error_message()
 
 

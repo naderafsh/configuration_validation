@@ -25,7 +25,7 @@ def main():
 def export_motor_record(data, mcs, beamline):
 
     output_path = os.getcwd().rsplit('\\', 1)[0]
-    filename = output_path + '\\Tool data\\MotorRecord-SR{0}-MCS{1}-{2}'.format(beamline, mcs, strftime("%Y%m%d%H%M%S"))
+    filename = output_path + '\\output\\MotorRecord-SR{0}-MCS{1}-{2}'.format(beamline, mcs, strftime("%Y%m%d%H%M%S"))
     with open(filename + '.csv', 'w') as f:
         for line in data:
             f.write(line)

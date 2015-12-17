@@ -129,7 +129,7 @@ def export_label_data(mcs, data):
     # Writs the data to a csv file.
     mcs = str(mcs)
     output_path = os.getcwd().rsplit('\\', 1)[0]
-    filename = output_path + '\\Tool data\\Labels_MCS{0}_{1}'.format(mcs, strftime("%Y%m%d%H%M%S"))
+    filename = output_path + '\\output\\Labels_MCS{0}_{1}'.format(mcs, strftime("%Y%m%d%H%M%S"))
     with open(filename + '.csv', 'w') as f:
         for label in data:
             for line in label:

@@ -55,7 +55,7 @@ def format_asbuilt(data):
 def export_asbuilt(data):
     # Exports file as csv. Includes header for table.
     output_path = os.getcwd().rsplit('\\', 1)[0]  # Gets the working directory.
-    filename = output_path + '\\Tool data\\Asbuilt-FINAL-{0}'.format(strftime("%Y%m%d%H%M%S"))
+    filename = output_path + '\\output\\Asbuilt-FINAL-{0}'.format(strftime("%Y%m%d%H%M%S"))
     header = data_format.motor_list_header  # Starts the file with the header from data_format.py
     with open(filename + '.csv', 'w') as f:
         f.write(header)
