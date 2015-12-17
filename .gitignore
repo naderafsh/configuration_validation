@@ -218,3 +218,4 @@ pip-log.txt
 configuration_validation/.idea/.name
 *.iml
 .idea/.name
+*.lnk

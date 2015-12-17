@@ -1,8 +1,7 @@
 from time import strftime
 import os
-import sys
-import extract_data
-import data_format
+from configuration_validation import extract_data
+from configuration_validation import data_format
 
 
 def main():
