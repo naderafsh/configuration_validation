@@ -1,7 +1,7 @@
 import re
 import os
-import configuration_validation_tool
-import extract_data
+from configuration_validation import configuration_validation_tool
+from configuration_validation import extract_data
 
 
 def st_match(st_path, master_path):

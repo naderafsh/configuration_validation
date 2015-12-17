@@ -1,7 +1,7 @@
 from time import strftime
-import data_format
-import extract_data
-import configuration_validation_tool
+from configuration_validation import data_format
+from configuration_validation import extract_data
+from configuration_validation import configuration_validation_tool
 import os
 import pandas as pd
 
