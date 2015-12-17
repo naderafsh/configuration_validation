@@ -3,11 +3,11 @@
 from time import strftime
 import sys
 import os
-import cable_labels
-import epics_motor_record
-import configuration_validation
-import motor_list
-import gblv_label
+from configuration_validation import cable_labels
+from configuration_validation import epics_motor_record
+from configuration_validation import configuration_validation
+from configuration_validation import motor_list
+from configuration_validation import gblv_label
 
 
 def main():

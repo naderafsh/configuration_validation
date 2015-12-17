@@ -1,6 +1,6 @@
 from time import strftime
-import extract_data
-import configuration_validation_tool
+from configuration_validation import extract_data
+from configuration_validation import configuration_validation_tool
 import os
 
 

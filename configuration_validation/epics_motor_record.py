@@ -1,9 +1,8 @@
 from time import strftime
-import extract_data
-import data_format
-from motor_list import format_asbuilt
-import motor_record_st_grab
-import configuration_validation_tool
+from configuration_validation import extract_data
+from configuration_validation import data_format
+from configuration_validation import motor_record_st_grab
+from configuration_validation import configuration_validation_tool
 import os
 import copy
 
